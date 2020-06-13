@@ -1,0 +1,106 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+	text-transform: uppercase;
+}
+section{
+	padding: 60px 0;
+}
+#gpa-header {
+  position: relative;
+}
+.gpa-nav {
+  background-color: transparent;
+  border: medium none;
+  position: fixed;
+  transition: all 0.2s ease 0s;
+  width: 100%;
+  z-index: 16;
+}
+#gpa-header button {
+  margin-top: 20px;
+}
+#gap-header button:focus{
+	background: transparent;
+}
+#gpa-header .gpa-nav{
+	border-radius: 0;
+}
+
+.gpa-nav .brand_image > img {
+  max-width: 195px;
+  width: 100%;
+}
+.gpa-nav .navbar-nav > li > a {
+	color: #fff;
+  font-size: 16px;
+  margin: 30px 5px 0;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.gpa-nav .brand_image{
+	height: auto;
+}
+.gpa-nav .navbar-nav > li a:focus,
+.gpa-nav .navbar-nav > .active a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.gpa-nav .navbar-nav > .active  a,
+.gpa-nav .navbar-nav > .active  a:hover,
+.gpa-nav .navbar-nav > li  a:hover {
+  background-color: transparent;
+  color: #fa4659 !important;
+}
+
+.gpa-nav .navbar-toggle{
+	border:none; 
+}
+.gpa-nav .navbar-toggle *{
+	transition: .3s all;
+}
+.gpa-nav .navbar-toggle:hover{
+	background: transparent;
+}
+.cross .bar1 {
+  transform: rotate(45deg);
+}
+.cross .bar2 {
+  display: none;
+}
+.cross .bar3 {
+  margin-top: -2px !important;
+  transform: rotate(-45deg);
+}
+
+.myslider .sliderimg{
+	height: 550px;
+}
+.myslider h3{
+	margin: 0px auto;
+	font-weight: bold;
+	margin-bottom: 225px;
+}
+.headtitle{
+	padding: 30px;
+}
+.headtitle h2 {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 0;
+  background: #6b9e57;
+}
+.notice{
+	background: #f3f3f3;
+}
+.notice .headtitle h2{
+	border-radius: 5px;
+	display: inline;
+	color: #fff;
+	font-weight:bold;
+}
